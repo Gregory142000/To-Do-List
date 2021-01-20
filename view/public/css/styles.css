@@ -1,0 +1,116 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: 'Potta One', cursive;
+}
+
+/*------------------- TaskPanel -----------------*/
+
+.TaskPanel{
+  background-color: #d9e4dd;
+  margin: 5%;
+  border-radius: 15px;
+  padding: 2vh 0;
+  box-shadow: 15px 15px 20px #000;
+}
+  .TaskPanel__title{
+    text-align: center;
+    font-size: 2rem;
+    margin: 2vh 0;
+  }
+  .TaskPanel__form{
+    margin: 2vh 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+    .TaskPanel__inputBox{
+      margin: 2vh 0;
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+    }
+      .TaskPanel__label{
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+      }
+      .TaskPanel__taskTitle{
+        height: 5vh;
+        font-size: 1.1rem;
+        border-radius: 15px;
+        border: none;
+        padding: 5px;
+        font-family: 'Montserrat', sans-serif;
+      }
+      .TaskPanel__description{
+        resize: none;
+        height: 30vh;
+        font-size: 1.1rem;
+        border-radius: 15px;
+        border: none;
+        padding: 5px;
+        font-family: 'Montserrat', sans-serif;
+      }
+    .TaskPanel__add{
+      font-family: 'Potta One', cursive;
+      font-size: 1.1rem;
+      background-color: #b8de6f;
+      border: none;
+      border-radius: 15px;
+      width: 150px;
+      height: 5vh;
+      margin: 2vh 0;
+      transition: all .5s ease;
+    }
+    .TaskPanel__add:hover{
+      background-color: #c1ff4d;
+    }
+
+/*-------------------- Task --------------------*/
+
+/* .Task{} */
+  .Task__form{
+    background-color: #d9e4dd;
+    margin: 5%;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 15px 15px 20px #000;
+  }
+    .Task__title{
+      font-size: 1.7rem;
+    }
+    .Task__content{
+      margin: 4vh 15px;
+      font-size: 1.2rem;
+    }
+    .Task__update{
+      width: 100px;
+      height: 5vh;
+      font-family: 'Potta One', cursive;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 15px;
+      background-color: #19d3da;
+      margin-right: 10px;
+      transition: all .5s ease;
+    }
+    .Task__update:hover{
+      background-color: #62faff;
+    }
+    .Task__delete{
+      width: 100px;
+      height: 5vh;
+      font-family: 'Potta One', cursive;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 15px;
+      background-color: #d7385e;
+      transition: all .5s ease;
+    }
+    .Task__delete:hover{
+      background-color: #fd6185;
+    }

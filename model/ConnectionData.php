@@ -1,5 +1,5 @@
 <?php
-namespace ConnectionDataBase;
+// namespace ConnectionDataBase;
 
 define("SERVER_NAME", "localhost");
 define("USER_NAME", "root");
